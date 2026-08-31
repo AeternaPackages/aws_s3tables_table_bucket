@@ -1,9 +1,4 @@
 # --- aws_s3tables_table_bucket ---
-output "s3tables_table_buckets_id" {
-  description = "Map of id values across all s3tables_table_buckets, keyed the same as var.s3tables_table_buckets"
-  value       = module.s3tables_table_buckets.s3tables_table_buckets_id
-}
-
 output "s3tables_table_buckets_arn" {
   description = "Map of arn values across all s3tables_table_buckets, keyed the same as var.s3tables_table_buckets"
   value       = module.s3tables_table_buckets.s3tables_table_buckets_arn
@@ -55,11 +50,6 @@ output "s3tables_table_buckets_tags_all" {
 }
 
 # --- aws_s3tables_namespace ---
-output "s3tables_namespaces_id" {
-  description = "Map of id values across all s3tables_namespaces, keyed the same as var.s3tables_namespaces"
-  value       = module.s3tables_namespaces.s3tables_namespaces_id
-}
-
 output "s3tables_namespaces_created_at" {
   description = "Map of created_at values across all s3tables_namespaces, keyed the same as var.s3tables_namespaces"
   value       = module.s3tables_namespaces.s3tables_namespaces_created_at
@@ -91,11 +81,6 @@ output "s3tables_namespaces_table_bucket_arn" {
 }
 
 # --- aws_s3tables_table ---
-output "s3tables_tables_id" {
-  description = "Map of id values across all s3tables_tables, keyed the same as var.s3tables_tables"
-  value       = module.s3tables_tables.s3tables_tables_id
-}
-
 output "s3tables_tables_arn" {
   description = "Map of arn values across all s3tables_tables, keyed the same as var.s3tables_tables"
   value       = module.s3tables_tables.s3tables_tables_arn
@@ -197,11 +182,6 @@ output "s3tables_tables_warehouse_location" {
 }
 
 # --- aws_s3tables_table_bucket_policy ---
-output "s3tables_table_bucket_policies_id" {
-  description = "Map of id values across all s3tables_table_bucket_policies, keyed the same as var.s3tables_table_bucket_policies"
-  value       = module.s3tables_table_bucket_policies.s3tables_table_bucket_policies_id
-}
-
 output "s3tables_table_bucket_policies_region" {
   description = "Map of region values across all s3tables_table_bucket_policies, keyed the same as var.s3tables_table_bucket_policies"
   value       = module.s3tables_table_bucket_policies.s3tables_table_bucket_policies_region
@@ -218,11 +198,6 @@ output "s3tables_table_bucket_policies_table_bucket_arn" {
 }
 
 # --- aws_s3tables_table_bucket_replication ---
-output "s3tables_table_bucket_replications_id" {
-  description = "Map of id values across all s3tables_table_bucket_replications, keyed the same as var.s3tables_table_bucket_replications"
-  value       = module.s3tables_table_bucket_replications.s3tables_table_bucket_replications_id
-}
-
 output "s3tables_table_bucket_replications_region" {
   description = "Map of region values across all s3tables_table_bucket_replications, keyed the same as var.s3tables_table_bucket_replications"
   value       = module.s3tables_table_bucket_replications.s3tables_table_bucket_replications_region
@@ -249,11 +224,6 @@ output "s3tables_table_bucket_replications_version_token" {
 }
 
 # --- aws_s3tables_table_policy ---
-output "s3tables_table_policies_id" {
-  description = "Map of id values across all s3tables_table_policies, keyed the same as var.s3tables_table_policies"
-  value       = module.s3tables_table_policies.s3tables_table_policies_id
-}
-
 output "s3tables_table_policies_name" {
   description = "Map of name values across all s3tables_table_policies, keyed the same as var.s3tables_table_policies"
   value       = module.s3tables_table_policies.s3tables_table_policies_name
@@ -280,11 +250,6 @@ output "s3tables_table_policies_table_bucket_arn" {
 }
 
 # --- aws_s3tables_table_replication ---
-output "s3tables_table_replications_id" {
-  description = "Map of id values across all s3tables_table_replications, keyed the same as var.s3tables_table_replications"
-  value       = module.s3tables_table_replications.s3tables_table_replications_id
-}
-
 output "s3tables_table_replications_region" {
   description = "Map of region values across all s3tables_table_replications, keyed the same as var.s3tables_table_replications"
   value       = module.s3tables_table_replications.s3tables_table_replications_region
